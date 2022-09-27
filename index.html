@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gobblers Guide</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body style="">
+<div class="m-4">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">GOBBLERS GUIDE</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#"> Calculator <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#" target="_blank">VRGDA Stats (Coming soon)</a>
+                    <a class="nav-item nav-link" href="https://www.paradigm.xyz/2022/09/artgobblers" target="_blank">About ArtGobblers</a>
+                    <a class="nav-item nav-link" href="https://artgobblers.com/" target="_blank">Website</a>
+                    <a class="nav-item nav-link" href="https://twitter.com/artgobblers" target="_blank">Twitter</a>
+                    <a class="nav-item nav-link" href="https://www.paradigm.xyz/2022/09/goo" target="_blank">GOO MECHANISM</a>
+                </div>
+                
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+  
+  <div id="backgroundImage">
+
+    <div class="main">
+<div class=" container">
+  
+    <div class="row ">
+    <div class="container-sm col-11">
+  
+   <label class="btn btn-success me-2" for="var3">INITIAL GOO</label>
+    <input type="number" class="form-control" id="initialGoo" aria-describedby="emailHelp" ><br>
+   
+
+    <label class="btn btn-success me-2" for="var3">NO. OF GOBBLERS</label>
+    <input type="number" class="form-control" id="count" aria-describedby="emailHelp" onkeyup="createFields()" ><br>
+
+    <label class="btn btn-success me-2" for="var3">TIME (in days)</label>
+    <input type="number" class="form-control" id="time" aria-describedby="emailHelp" ><br>
+   
+
+    <div class="col-12" id="container" style="font-size: :10px!important;"><hr></div>
+    <br>
+    <label class="btn btn-warning" for="var3">TOTAL GOO EARNED</label>
+    <input type="number"  class="form-control" id="totalGooEarned" aria-describedby="emailHelp" ><br>
+
+    <button onclick="getValue()" step="any" class="btn btn-lg btn-pill btn-primary" id="calculate">Calculate</button>
+
+ </div>
+ 
+ 
+<div class="box">
+   <div class="faqs">
+      <details>
+         <summary><b>What is art gobblers ?</b></summary>
+         <p class="text">Art Gobblers is a decentralized art factory owned by aliens made by <a href="https://en.wikipedia.org/wiki/Justin_Roiland">Justin Rolland</a> (co-creator of Adult Swim's Rick and Morty) and <a href="https://www.paradigm.xyz/">Paradigm</a> (A well known crypto asset investment firm.). As artists make cool art, Gobblers gains cultural relevance, making collectors want the art more, incentivizing artists to make cooler art. It's also an on-chain game.</p>
+      </details>
+      <details>
+         <summary><b>What are Gobblers,Goo and Gobbler’s multiple?</b></summary>
+         <p class="text">Art Gobblers themselves are fully animated ERC1155 NFTs. In particular, they eat art that artists draw using art gobbler’s draw tool and turn into 1/1 NFTs using in-game resources. All the artworks a Gobbler eats belong to it on-chain and are displayed in its belly gallery forever.Goo  is an ERC20 Ethereum token emitted by Art Gobblers NFTs and is needed to make new Blank Pages and its supply is quadratically unlimited .Gobbler’s multiple is base speed of gobbler squirting out Goo. Every Gobbler has its own  multiple which will determine the amount of goo it can earn.</p>
+      </details>
+      <details>
+         <summary><b>How can i use Gobblers.guide to the fullest?</b></summary>
+         <p class="text">type amount of initial Goo,time period,number of gobblers and their multiples then click the button "CALCULATE",now check most lucrative goo alloactions ,corresponding and total earnings.You also track VRGDA Stats soon.Here,time is taken in days which is for only testing purposes,real units will be updated after more info from artgobblers.Follow their <a href="https://twitter.com/artgobblers">twitter</a> for updates </p>
+      </details>
+      <details>
+        <summary><b>Can i use Gobblers.guide's data to make my financial decisions ?</b></summary>
+        <p class="text">Strictly, A "BIG NO" ,all the  data is calculated by formulas from <a href="https://www.paradigm.xyz/2022/09/goo">paradigm's writings article</a>.If you found any mistakes or error, feel free to dm me at <a href="https://mobile.twitter.com/thcryptovlogger">dev</a>  </p>
+     </details>
+   </div>
+</div>
+
+    </div>
+
+</div>
+
+
+
+</div> 
+</div>
+      
+
+<script type="text/javascript" src="index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
